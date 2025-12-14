@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Custom-SQRT-function-benchmark.vcxproj" Id="33803a84-b6d5-4078-8c9f-63d4bb44493f" />
+</Solution>

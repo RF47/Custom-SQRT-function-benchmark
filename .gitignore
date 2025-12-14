@@ -1,0 +1,48 @@
+# Visual Studio
+.vs/
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+~AutoRecover.*
+
+# Compiled Object files
+*.obj
+*.o
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.a
+*.la
+*.lo
+
+# Executables
+*.out
+*.app
+*.iobj
+*.ipdb
+
+# Debug files
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# Directories
+Debug/
+
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
