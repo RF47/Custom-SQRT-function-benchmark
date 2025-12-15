@@ -242,7 +242,7 @@ int main() {
     std::cout << "\n💡 ANÁLISIS:\n";
     std::cout << "  • Ciclos std::sqrt: " << stats_std.average.cpu_cycles << "\n";
     std::cout << "  • Ciclos Sqrt_N:    " << stats_custom.average.cpu_cycles << "\n";
-    int64_t diff = static_cast<int64_t>(stats_custom.average.cpu_cycles) - static_cast<int64_t>(stats_std.average.cpu_cycles);
+    int64_t diff = std::abs(static_cast<int64_t>(stats_custom.average.cpu_cycles) - static_cast<int64_t>(stats_std.average.cpu_cycles));
     std::cout << "  • Diferencia:       " 
               << diff
               << " ciclos\n";
