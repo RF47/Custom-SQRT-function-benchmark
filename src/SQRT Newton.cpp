@@ -14,10 +14,10 @@ static inline double Sqrt_N(double n) noexcept {
     double y;
     std::memcpy(&y, &i, sizeof(i));
 
-    y = y * (1.5 - 0.5 * n * y * y);
-    y = y * (1.5 - 0.5 * n * y * y);
-    y = y * (1.5 - 0.5 * n * y * y);
-    y = y * (1.5 - 0.5 * n * y * y);
+    y = y * std::fma(-0.5 * n, y * y, 1.5);
+    y = y * std::fma(-0.5 * n, y * y, 1.5);
+    y = y * std::fma(-0.5 * n, y * y, 1.5);
+    y = y * std::fma(-0.5 * n, y * y, 1.5);
 
     return n * y;
 }
