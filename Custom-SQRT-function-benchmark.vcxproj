@@ -155,10 +155,9 @@
       <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
       <FloatingPointModel>Fast</FloatingPointModel>
       <AdditionalOptions>-march=znver3 -mtune=znver3 -flto -mfma %(AdditionalOptions)</AdditionalOptions>
-      <AssemblerOutput>AssemblyCode</AssemblerOutput>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <ObjectFileName>sqrt.asm</ObjectFileName>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
