@@ -14,7 +14,6 @@
 *.o
 *.lo
 *.slo
-*.exe
 *.asm
 
 # Precompiled Headers
@@ -31,6 +30,7 @@
 *.app
 *.iobj
 *.ipdb
+*.exe
 
 # Debug files
 *.pdb
@@ -48,3 +48,4 @@ Debug/
 *.log
 *.bak
 *.swp
+
