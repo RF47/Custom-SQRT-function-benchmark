@@ -249,8 +249,6 @@ int main() {
     
     std::cout << "\n========================================\n";
     std::cout << "Presiona Enter para salir...";
-    std::cin.ignore();
     std::cin.get();
-    
     return 0;
 }
